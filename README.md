@@ -1,6 +1,8 @@
 ## Using Fast Weights To Attend the Future Past
 
-Reproducing the associative model experiment on the paper [Using Fast Weights To Attend the Future Past](https://arxiv.org/abs/1610.06258) by Jimmy Ba et al. (Incomplete)
+Reproducing the associative model experiment on the paper
+
+[Using Fast Weights To Attend the Future Past](https://arxiv.org/abs/1610.06258) by Jimmy Ba et al. (Incomplete)
 
 
 
@@ -40,6 +42,7 @@ Currently, we are able to see that the accuracy easily exceeds 0.9 for R=20, and
 
 - Otherwise, training will not converge when the inner step is larger than 1. 
 - Even when inner step of 1, the performance without layer normalization is much worse. For R=20, only 0.4 accuracy can be achieved (which is same as the level of other models.)
+- Even with Layer Normalization, using slow weights (ie. vanilla RNN) is much worse than using fast weights.
 
 
 
@@ -49,3 +52,11 @@ Further improvements:
 - Use accelerated version of A
 - Add visualization
 
+
+
+
+### References
+
+[Using Fast Weights to Attend to the Recent Past](https://arxiv.org/abs/1610.06258). Jimmy Ba,  Geoffrey Hinton, Volodymyr Mnih, Joel Z. Leibo, Catalin Ionescu.
+
+[Layer Normalization](https://arxiv.org/abs/1607.06450). Jimmy Ba, Ryan Kiros, Geoffery Hinton.
