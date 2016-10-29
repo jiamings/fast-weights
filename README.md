@@ -1,8 +1,8 @@
-## Using Fast Weights to Attend to the Future Past
+## Using Fast Weights to Attend to the Recent Past
 
 Reproducing the associative model experiment on the paper
 
-[Using Fast Weights to Attend to the Future Past](https://arxiv.org/abs/1610.06258) by Jimmy Ba et al. (Incomplete)
+[Using Fast Weights to Attend to the Recent Past](https://arxiv.org/abs/1610.06258) by Jimmy Ba et al. (Incomplete)
 
 
 
