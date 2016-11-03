@@ -34,9 +34,13 @@ $ python fw.py
 
 ### Findings
 
-Currently, we are able to see that the accuracy easily exceeds 0.9 for R=20, and 0.97 for R=50, which can justify for the effectiveness of the model. **The experiments are barely tuned.**
+The following is the accuracy and loss graph for$R=20. **The experiments are barely tuned.**
+
+![](fig/acc.png)
 
 
+
+![](fig/loss.png)
 
 **Layer Normalization is extremely crucial for the success of training.** 
 
@@ -49,8 +53,7 @@ Currently, we are able to see that the accuracy easily exceeds 0.9 for R=20, and
 Further improvements:
 
 - Complete fine-tuning
-- Use accelerated version of A
-- Add visualization
+- Work on other tasks
 
 
 
