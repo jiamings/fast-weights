@@ -34,7 +34,7 @@ $ python fw.py
 
 ### Findings
 
-The following is the accuracy and loss graph for$R=20. **The experiments are barely tuned.**
+The following is the accuracy and loss graph for R=20. **The experiments are barely tuned.**
 
 ![](fig/acc.png)
 
